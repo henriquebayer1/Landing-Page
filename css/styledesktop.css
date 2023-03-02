@@ -17,10 +17,19 @@ Branco #FFFFFF
 */
 
 @font-face {
-   font-family: henrique;
-   src: url(../Assets/BebasNeue-Regular.ttf);
+   font-family: BebasNeue;
+   src: url(../fonts/BebasNeue-Regular.ttf);
 }
 
+@font-face {
+   font-family: CourierNew ;
+   src: url(../fonts/courier-new.ttf);
+}
+
+@font-face {
+   font-family: OpenSans;
+   src: url(../fonts/OpenSans-Regular.ttf);
+}
 
 /* Reset */
 
@@ -36,7 +45,7 @@ border: solid 2px yellow;}
 
 /* HEADER */
 
-header {background-color: violet;
+header {background-color: #F9003D;
 width: 100%;
 height: 60px;}
 
@@ -50,18 +59,79 @@ height: 60px;}
 
 header a {text-decoration: none;
 color: white;
-font-family: henrique;
+font-family: BebasNeue;
 font-weight: 400;
 font-size: 18px;
-
+letter-spacing: 2px;
 }
+
+header a:hover {text-shadow: 2px 2px 10px yellow;}
 
 /* div nav para links */
 
 header nav {display: flex;
    justify-content: space-between;
    align-items: center;
-   border: solid 1px red;
-   width: 300px;
+   border: solid 1px blue;
+   width: 623px;
    }
 
+ 
+
+
+/* MAIN */
+
+main {background-color: gray;
+width: 100%;
+}
+.bannermain {background-image: url(../Assets/imagem-fundo-banner\ 1.png);}
+
+#titulomainpg1 {font-family: BebasNeue;
+color: white;
+font-size: 96px;
+font-weight: 400;
+border-bottom: solid 1px #FFAF00;
+margin-bottom: 29px;}
+
+#titulomainpage2 {font-family: BebasNeue;
+   color: #F9003D ;
+   font-size: 64px;
+   font-weight: 400;
+   }
+
+#titulomainpage3 {font-family: CourierNew;
+   color: white;
+   font-weight: 700;
+   font-size: 24px;}
+
+#titulomainpage4 {font-family: BebasNeue;
+   color: #FFAF00 ;
+   font-size: 64px;
+   font-weight: 400;}
+
+   .texto {font-family: OpenSans;
+   font-weight: 400;
+font-size: 15px;}
+
+main h2 {font-family: CourierNew;
+color: #F9003D;
+font-weight: 700;
+font-size: 53px;
+}
+
+.main-flex {display: flex;
+   justify-content:center;
+   align-items:flex-start;
+   flex-direction: column;
+   text-transform: uppercase;
+   height: 740px;
+   }
+
+.main-flex2 {display: flex;
+   justify-content:center;
+   align-items:flex-start;
+   flex-direction: column;
+   text-transform: uppercase;
+   height: 800px;}
+
+   #mouseicon {margin-top: 25px;}
