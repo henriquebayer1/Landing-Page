@@ -1,0 +1,67 @@
+/* FONTES PARA LANDING PAGE */
+
+/* font-family: 'Bebas Neue', cursive;
+font-family: 'Courier Prime', monospace; */
+
+/* CORES PARA LANDING PAGE */
+
+/*
+Preto #010010
+Azul Escuro #080324;
+Roxo #340B65;
+Roxo Claro #A259F7;
+Rosa #DA40B1
+Amarelo #FFAF00
+Vermelho #F9003D
+Branco #FFFFFF
+*/
+
+@font-face {
+   font-family: henrique;
+   src: url(../Assets/BebasNeue-Regular.ttf);
+}
+
+
+/* Reset */
+
+* {margin: 0;
+padding: 0;
+box-sizing: border-box;}
+
+/* Box div */
+.layout-grid {width: 100%;
+max-width: 1200px;
+margin: 0 auto;
+border: solid 2px yellow;}
+
+/* HEADER */
+
+header {background-color: violet;
+width: 100%;
+height: 60px;}
+
+/* Box header */
+.header-flex {display: flex;
+   justify-content: flex-end;
+   height: 100%;
+   }
+
+/* links de nav */
+
+header a {text-decoration: none;
+color: white;
+font-family: henrique;
+font-weight: 400;
+font-size: 18px;
+
+}
+
+/* div nav para links */
+
+header nav {display: flex;
+   justify-content: space-between;
+   align-items: center;
+   border: solid 1px red;
+   width: 300px;
+   }
+
