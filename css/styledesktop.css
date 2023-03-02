@@ -43,6 +43,24 @@ max-width: 1200px;
 margin: 0 auto;
 border: solid 2px yellow;}
 
+.h3titleform {font-family: CourierNew;
+font-weight: 700;
+font-size: 24px;
+color: white;}
+
+.articletextform {text-transform: uppercase;
+font-family: CourierNew;
+font-weight: 700;
+font-size: 28px;
+line-height: 32px;}
+
+.mainarticlesform {color: #340B65;
+border: 1px solid #340B65;
+padding: 38px 33px;
+width: 289px;}
+
+
+
 /* HEADER */
 
 header {background-color: #F9003D;
@@ -87,6 +105,8 @@ width: 100%;
 
 .bannermain {background-image: url(../Assets/imagem-fundo-banner\ 1.png);}
 
+.wallpaper {background-image: url(../Assets/imagem-fundo-info\ 1.png);}
+
 .sectionmaincolor {background-color: #080324;}
 
 #titulomainpg1 {font-family: BebasNeue;
@@ -100,21 +120,27 @@ margin-bottom: 29px;}
    color: #F9003D ;
    font-size: 64px;
    font-weight: 400;
+   display: flex;
+   align-self: flex-start;
+   margin-bottom: 25px;
    }
 
 #titulomainpage3 {font-family: CourierNew;
    color: white;
    font-weight: 700;
-   font-size: 24px;}
+   font-size: 24px;
+   margin-bottom: 25px}
 
 #titulomainpage4 {font-family: BebasNeue;
    color: #FFAF00 ;
    font-size: 64px;
-   font-weight: 400;}
+   font-weight: 400;
+   margin-bottom: 25px}
 
    .texto {font-family: OpenSans;
    font-weight: 400;
-font-size: 15px;}
+font-size: 15px;
+color: white;}
 
 main h2 {font-family: CourierNew;
 color: #F9003D;
@@ -132,9 +158,25 @@ font-size: 53px;
 
 .main-flex2 {display: flex;
    justify-content:center;
-   align-items:flex-start;
+   align-items:flex-end;
    flex-direction: column;
    text-transform: uppercase;
    height: 800px;}
+
+
+  .main-flex3 {display: flex;
+   justify-content: space-around;
+   align-items:center;
+   flex-direction: row;
+   text-transform: uppercase;
+   height: 202px;}
+
+.sectionposition {width: 605px;
+   height: 475px;
+   display: flex;
+   flex-direction: column;
+align-items: flex-start;
+justify-content: center;
+border: 1px solid firebrick;}
 
    #mouseicon {margin-top: 25px;}
