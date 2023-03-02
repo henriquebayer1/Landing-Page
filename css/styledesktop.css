@@ -84,7 +84,10 @@ header nav {display: flex;
 main {background-color: gray;
 width: 100%;
 }
+
 .bannermain {background-image: url(../Assets/imagem-fundo-banner\ 1.png);}
+
+.sectionmaincolor {background-color: #080324;}
 
 #titulomainpg1 {font-family: BebasNeue;
 color: white;
