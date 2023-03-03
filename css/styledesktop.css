@@ -40,8 +40,7 @@ box-sizing: border-box;}
 /* Box div */
 .layout-grid {width: 100%;
 max-width: 1200px;
-margin: 0 auto;
-border: solid 2px yellow;}
+margin: 0 auto;}
 
 .h3titleform {font-family: CourierNew;
 font-weight: 700;
@@ -54,12 +53,28 @@ font-weight: 700;
 font-size: 28px;
 line-height: 32px;}
 
-.mainarticlesform {color: #340B65;
-border: 1px solid #340B65;
+.mainarticlesform {background-color: #010010;
+   color: #A259F7;
+border: 1px solid #A259F7;
 padding: 38px 33px;
 width: 289px;}
 
 
+
+
+.h1tituloform {font-family: BebasNeue;
+   color: #FFAF00;
+   font-size: 96px;
+   font-weight: 400;
+   margin-bottom: 29px;
+   text-transform: uppercase;}
+
+   .texto {font-family: OpenSans;
+      font-weight: 400;
+   font-size: 15px;
+   color: white;}
+
+   
 
 /* HEADER */
 
@@ -90,7 +105,6 @@ header a:hover {text-shadow: 2px 2px 10px yellow;}
 header nav {display: flex;
    justify-content: space-between;
    align-items: center;
-   border: solid 1px blue;
    width: 623px;
    }
 
@@ -103,9 +117,18 @@ main {background-color: gray;
 width: 100%;
 }
 
+main h2 {font-family: CourierNew;
+   color: #F9003D;
+   font-weight: 700;
+   font-size: 53px;
+   }
+
 .bannermain {background-image: url(../Assets/imagem-fundo-banner\ 1.png);}
 
 .wallpaper {background-image: url(../Assets/imagem-fundo-info\ 1.png);}
+
+
+
 
 .sectionmaincolor {background-color: #080324;}
 
@@ -137,17 +160,6 @@ margin-bottom: 29px;}
    font-weight: 400;
    margin-bottom: 25px}
 
-   .texto {font-family: OpenSans;
-   font-weight: 400;
-font-size: 15px;
-color: white;}
-
-main h2 {font-family: CourierNew;
-color: #F9003D;
-font-weight: 700;
-font-size: 53px;
-}
-
 .main-flex {display: flex;
    justify-content:center;
    align-items:flex-start;
@@ -170,13 +182,58 @@ font-size: 53px;
    flex-direction: row;
    text-transform: uppercase;
    height: 202px;}
+   
+   /* ENDEREÇO (MAIN) */
+   .endereço-flex {display: flex;
+      justify-content: center;
+      align-items:center;
+      flex-direction: column;
+      height: 518px;}
+
+   #mapimageposition {position: relative;
+      bottom: 45px;}
+
+      .textendereçoform {color: #A259F7;
+         border: 1px solid #340B65;
+         padding: 38px 33px;
+         width: 900px;
+         height: 203px;
+      font-family: CourierNew;
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 27.19px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;}
+
+      .wallpaper-endereço {background-image: url(../Assets/imagem-fundo-ranking\ 2.png);}
 
 .sectionposition {width: 605px;
    height: 475px;
    display: flex;
    flex-direction: column;
 align-items: flex-start;
-justify-content: center;
-border: 1px solid firebrick;}
+justify-content: center;}
+
+/* FOOTER */
+
+footer {background-color: #F9003D;
+   width: 100%;
+   height: 82px;}
+
+   .footer-flex {height: 82px;
+      display: flex;
+      justify-content: center;
+      align-items: center;}
+
+   .copyrighttext {font-family: OpenSans;
+   font-weight: 400;
+font-size: 18px;
+text-transform: lowercase;
+color: white;}
+
+
+
+/* ICONS */
 
    #mouseicon {margin-top: 25px;}
