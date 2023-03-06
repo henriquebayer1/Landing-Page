@@ -37,6 +37,8 @@ Branco #FFFFFF
 padding: 0;
 box-sizing: border-box;}
 
+/* DESKTOP FIRST */
+
 /* Box div */
 .layout-grid {width: 100%;
 max-width: 1200px;
@@ -108,7 +110,7 @@ header nav {display: flex;
    width: 623px;
    }
 
- 
+ header .fa-solid {display: none;}
 
 
 /* MAIN */
@@ -237,3 +239,26 @@ color: white;}
 /* ICONS */
 
    #mouseicon {margin-top: 25px;}
+
+
+   /******* MEDIA QUERIES *******/
+
+   /* tablets >=768px 991px */
+
+   @media screen and (max-width: 991px) {
+
+
+      
+   }
+
+   /* smartphones >= 0 ate 767 */
+
+   @media screen and (max-width: 767px) {
+
+      header nav {display: none;}
+
+      #menu-mobile {display: block;
+      color: white;
+   }
+
+   }
