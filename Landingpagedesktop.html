@@ -18,7 +18,7 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://kit.fontawesome.com/df3a256c64.css" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/styledesktop.css">
-
+    
 
 </head>
 
@@ -29,13 +29,15 @@
 <body>
     <header>
         <div class="layout-grid header-flex">
-            <nav class="positionlinks">
+
+            <nav id="navmenu" class="positionlinks">
                 <a href="">Início</a>
                 <a href="">Sobre</a>
                 <a href="">Desafios</a>
                 <a href="">Endereço</a>
             </nav>
-            <i id="menu-mobile" class="fa-solid fa-bars"></i>
+
+            <img class="iconmenu" id="menu-mobile" src="./Icons/menu_FILL0_wght400_GRAD0_opsz48.svg" alt="menu" onclick="mostrarmenu ()">
         </div>
     </header>
 
@@ -129,6 +131,12 @@
         </section>    
 
     </footer>
+
+<script>
+
+    function mostrarmenu() {document.getElementById("navmenu").classList.toggle("mostrarmenu");}
+</script>
+
 
 </body>
 
